@@ -6,3 +6,4 @@ def test_author_save_and_find():
     author.save()
     found = Author.find_by_id(author.id)
     assert found.name == "Test Author"
+
